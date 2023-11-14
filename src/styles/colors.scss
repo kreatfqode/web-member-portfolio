@@ -1,0 +1,86 @@
+:root {
+  /* primary color */
+  --primary-h: 261;
+  --primary-s: 97%;
+  --primary-l: 71%;
+  // --primary-h: 34;
+  // --primary-s: 96%;
+  // --primary-l: 55%;
+  // --primary-h: 346;
+  // --primary-s: 100%;
+  // --primary-l: 38%;
+  // --primary-h: 239;
+  // --primary-s: 100%;
+  // --primary-l: 71%;
+  // --primary-h: 156;
+  // --primary-s: 3%;
+  // --primary-l: 65%;
+  // --primary-h: 240;
+  // --primary-s: 25%;
+  // --primary-l: 80%;
+  --primary-color: hsl(var(--primary-h), var(--primary-s), var(--primary-l));
+
+  /* secondary color */
+  // --secondary-h: 239;
+  // --secondary-s: 100%;
+  // --secondary-l: 71%;
+  // --secondary-h: 34;
+  // --secondary-s: 96%;
+  // --secondary-l: 55%;
+  // --secondary-h: 346;
+  // --secondary-s: 100%;
+  // --secondary-l: 38%;
+  // --secondary-h: 0;
+  // --secondary-s: 0%;
+  // --secondary-l: 31%;
+  // --secondary-h: 351;
+  // --secondary-s: 100%;
+  // --secondary-l: 71%;
+  // --secondary-h: 270;
+  // --secondary-s: 25%;
+  // --secondary-l: 50%;
+  --secondary-h: 10;
+  --secondary-s: 97%;
+  --secondary-l: 60%;
+  --secondary-color: hsl(
+    var(--secondary-h),
+    var(--secondary-s),
+    var(--secondary-l)
+  );
+
+  /* light color */
+  --light-h: 240;
+  --light-s: 25%;
+  --light-l: 97%;
+  --light-color: hsl(var(--light-h), var(--light-s), var(--light-l));
+
+  /* dark color */
+  --dark-h: 240;
+  --dark-s: 19%;
+  --dark-l: 17%;
+  --dark-color: hsl(var(--dark-h), var(--dark-s), var(--dark-l));
+
+  /* success color */
+  --success-h: 135;
+  --success-s: 60%;
+  --success-l: 40%;
+  --success-color: hsl(var(--success-h), var(--success-s), var(--success-l));
+
+  /* danger color */
+  --danger-h: 355;
+  --danger-s: 70%;
+  --danger-l: 55%;
+  --danger-color: hsl(var(--danger-h), var(--danger-s), var(--danger-l));
+
+  /* warning color */
+  --warning-h: 45;
+  --warning-s: 100%;
+  --warning-l: 50%;
+  --warning-color: hsl(var(--warning-h), var(--warning-s), var(--warning-l));
+
+  /* info color */
+  --info-h: 180;
+  --info-s: 80%;
+  --info-l: 40%;
+  --info-color: hsl(var(--info-h), var(--info-s), var(--info-l));
+}

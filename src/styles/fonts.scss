@@ -1,0 +1,14 @@
+@import 'https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&family=Saira+Stencil+One&display=swap';
+
+html[dir='ltr'] body {
+  --logo-font-family: 'Saira Stencil One', sans-serif;
+  --headings-font-family: 'Poppins', sans-serif;
+  --body-font-family: 'Roboto', sans-serif;
+}
+
+html[dir='rtl'] body {
+  --logo-font-family: 'Tajawal', sans-serif;
+  --headings-font-family: 'Tajawal', sans-serif;
+  --body-font-family: 'Tajawal', sans-serif;
+}
